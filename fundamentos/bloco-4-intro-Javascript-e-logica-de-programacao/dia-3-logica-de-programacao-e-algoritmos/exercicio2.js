@@ -5,15 +5,24 @@
 // *****
 // *****
 // *****
+// 
+// usando for aninhado:
+// n = 0
+// for(let j = 1; j <= 5; j++){
+//   let linha = ""
+//   for(let i = 1; i<=n+1; i++ ){
+//       linha += '*'  
+//   }
+//   console.log(linha)
+//   n=n+1
+// }
+
+// simplificando
 n=5
 let asteriscos = "*"
 let linha = ""
-
+linha = asteriscos
 for(let i =0; i< n ; i++){
-  linha = linha + asteriscos
-}
-
-
-for(i=0; i < n ; i++ ){
   console.log (linha) 
+  linha = linha + asteriscos
 }
