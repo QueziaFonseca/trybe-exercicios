@@ -1,0 +1,26 @@
+*{
+  margin: 0; 
+  padding: 0%; 
+  box-sizing: border-box;
+  font-size: 1.em;
+}
+
+
+/* 1 - Faça o tamanho da fonte ser maior; */
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
