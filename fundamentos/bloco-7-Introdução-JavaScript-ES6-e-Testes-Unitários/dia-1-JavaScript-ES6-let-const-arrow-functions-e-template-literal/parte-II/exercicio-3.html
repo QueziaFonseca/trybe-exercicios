@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray
+        }
+    </style>
+</head>
+
+<body>
+    <span id="text">sgsfgsfgsf</span>
+    <button> clique no botao </button>
+</body>
+<script>
+    const spanContadora = document.querySelector('span');
+    const btn = document.querySelector('button');
+    console.log(btn);
+    let clickCount = 0;
+    btn.addEventListener('click', () => {
+        
+        clickCount = clickCount + 1;
+        let numeroDeCliques = clickCount
+        console.log(numeroDeCliques)
+        spanContadora.innerText = " teste"
+    })
+
+
+console.log(numeroDeCliques )
+
+</script>
+
+</html>
