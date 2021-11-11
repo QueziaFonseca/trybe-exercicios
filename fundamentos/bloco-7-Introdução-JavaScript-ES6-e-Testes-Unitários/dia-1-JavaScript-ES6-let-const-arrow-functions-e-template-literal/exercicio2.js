@@ -6,6 +6,30 @@
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-// Seu código aqui.
+// const sortArray = array => {
+//   oddsAndEvens.sort((a, b) => a - b);
+//   return oddsAndEvens
+// }
 
-console.log(oddsAndEvens); // será necessário alterar essa linha 😉
+// const sortedOddsAndEvens = sortArray(oddsAndEvens);
+// console.log(sortedOddsAndEvens);
+
+
+
+
+
+
+
+
+
+for (let i = 0; i <= oddsAndEvens.length; i++) {
+  let t = 0;
+  if (oddsAndEvens[i+1] < oddsAndEvens[i]) {
+    t = oddsAndEvens[i] 
+    oddsAndEvens[i] = oddsAndEvens[i+1]
+    oddsAndEvens[i+1] = t
+  }
+  console.log(oddsAndEvens)
+}
+
+; // será necessário alterar essa linha 😉
