@@ -76,7 +76,7 @@ const books = [
 
 function getNamedBook() {
   // escreva seu código aqui Atencao!! NAO USAR {}
-   return books.find((book)  => book.name.length === 26);
+   return books.find((book)  => {return book.name.length === 26});
 }
 
 console.log(getNamedBook(books))
