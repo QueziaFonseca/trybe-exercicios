@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Header from './Header';
+import Content from './Content';
 
 
 
@@ -10,6 +11,7 @@ class App extends React.Component {
     return (
     <>
     <Header/>
+    <Content/>
     </>
   );
 }
