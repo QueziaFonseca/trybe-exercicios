@@ -11,7 +11,7 @@
         margin: 0;
         padding: 0;
       }
-
+      
       #container {
         height: 100%;
         display: flex;
@@ -19,12 +19,12 @@
         justify-content: center;
         align-items: center;
       }
-
+      
       button {
         height: 50px;
         width: 200px;
       }
-    </style>
+      </style>
   </head>
   <body>
     <div id="container">
@@ -38,6 +38,18 @@
         colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
         index: 0,
       };
-    </script>
+
+      
+      // 2 - Crie um reducer
+      const meuReducer = (state = ESTADO_INICIAL, action) => {
+        switch(action.type) {
+          default:
+            return state
+          }
+        };
+
+        // 1 - Crie uma store para a nossa aplicação.
+        const store = Redux.store(meuReducer);
+      </script>
   </body>
 </html>
