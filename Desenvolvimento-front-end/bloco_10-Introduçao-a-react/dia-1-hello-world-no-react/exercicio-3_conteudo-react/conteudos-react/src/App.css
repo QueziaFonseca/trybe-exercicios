@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: brown;
+  margin: 0 50px 0 50px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.footer {
+  
+  margin: 0 50px 0 50px;
+  text-align: center;
+}
