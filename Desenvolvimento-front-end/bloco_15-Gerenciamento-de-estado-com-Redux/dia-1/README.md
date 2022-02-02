@@ -1,8 +1,11 @@
 Trybe
 Este pasta contém o EXERCICIO 1 do Bloco 15 - Gerenciamento de estado com Redux, do dia 1 - Introdução ao Redux - O estado global da aplicação.
 
-Requisitos do exercício 1:
 
+Exercício 1
+Vamos construir um estado gerenciado pelo Redux e vamos realizar algumas modificações nele. O nosso objetivo será manipular a cor de um container através do Redux. O código inicial será disponibilizado no primeiro commit deste exercicio no arquivo 
+
+Requisitos do exercício 1:
 [ ] 1 - Crie uma store para a nossa aplicação.
 [ ] 2 - Crie um reducer, implementando um switch retornando apenas o estado inicial como default . Não se esqueça de colocar o reducer como parâmetro para o createStore , feito na etapa anterior.
 [ ] 3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR . Essas actions devem alterar o valor index guardado no ESTADO_INICIAL . Atente-se aos limites de tamanho do array, as posições devem iniciar em 0 e não podem exceder a numeração do último item do array.
