@@ -58,6 +58,19 @@
           }
         };
 
+        
+        // 4 - Crie eventListeners que escutam os cliques de cada botão, o Previous color e o Next color , e realizam um dispatch com o respectivo action.type de cada.
+        const previousColorButton = document.getElementById('previous');
+        previousColorButton.addEventListener('click', () => {
+          store.dispatch({type: 'PREVIOUS_COLOR'});
+        });
+        
+        const nextColorButton = document.getElementById('next');
+        nextColorButton.addEventListener('click', () => {
+          store.dispatch({type: 'NEXT_COLOR'});
+          console.log(store.dispatch)
+        })
+        
         // 1 - Crie uma store para a nossa aplicação.
         const store = Redux.createStore(meuReducer);
       </script>
