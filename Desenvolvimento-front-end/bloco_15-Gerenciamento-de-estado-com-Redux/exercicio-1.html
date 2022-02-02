@@ -33,7 +33,7 @@
       <button id="next">Next color</button>
     </div>
     <script>
-     
+      // const Redux = require('redux');
       const ESTADO_INICIAL = {
         colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
         index: 0,
@@ -42,9 +42,10 @@
       // 3 3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR . 
 
       
+      
       // 2 - Crie um reducer
       // 3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR 
-      const meuReducer = (state = ESTADO_INICIAL, action) => {
+      const meuReducer = (state = ESTADO_INICIAL, NEXT_COLOR, PREVIOUS_COLOR ) => {
         switch(action.type) {
           case "NEXT_COLOR ":
             return {
@@ -76,6 +77,7 @@
         
         // 1 - Crie uma store para a nossa aplicação.
         const store = Redux.createStore(meuReducer);
+
       </script>
   </body>
 </html>
