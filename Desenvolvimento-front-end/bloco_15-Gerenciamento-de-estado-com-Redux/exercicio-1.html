@@ -35,13 +35,12 @@
     <script>
      
       const ESTADO_INICIAL = {
-        colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
+        colorsArray: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
         index: 0,
       };
 
       // 3 3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR . 
 
-      
       
       // 2 - Crie um reducer
       // 3 - Incremente o switch criado no exercício anterior com as actions NEXT_COLOR e PREVIOUS_COLOR 
@@ -50,12 +49,12 @@
           case "NEXT_COLOR ":
             return {
               ...state,
-              index: state.index === state.colors.length - 1 ? 0 : state.index + 1,
+              index: state.index === state.colorsArray.length - 1 ? 0 : state.index + 1,
             };
           case "PREVIOUS_COLOR":
             return {
               ...state,
-              index: state.index === state.colors.length - 1 ? 0 : state.index - 1, 
+              index: state.index === state.colorsArray.length - 1 ? 0 : state.index - 1, 
             };
           default:
             return state
