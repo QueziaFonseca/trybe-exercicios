@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node.js"
+    "start": "node imc.js",
+    "imc": "imc.js"
   },
   "author": "quezia",
   "license": "ISC"
